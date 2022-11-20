@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "../../images/p.png";
 import { SocialIcon } from "react-social-icons";
+import { FaLongArrowAltDown } from "react-icons/fa";
 
 const HeroPage = () => {
   return (
@@ -23,7 +24,7 @@ const HeroPage = () => {
             <div className="flex gap-6">
               <button className="btn btn-primary">Hire Me</button>
               <button className="btn btn-outline btn-primary">
-                Download Resume
+                <FaLongArrowAltDown></FaLongArrowAltDown> Download Resume
               </button>
             </div>
             <br />

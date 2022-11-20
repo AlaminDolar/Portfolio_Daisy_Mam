@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLongArrowAltDown } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -57,7 +58,7 @@ const Header = () => {
                   Contact
                 </a>
                 <a className="btn btn-outline btn-info normal-case text-base font-normal">
-                  Download Resume
+                  <FaLongArrowAltDown></FaLongArrowAltDown> Download Resume
                 </a>
               </li>
             </ul>
