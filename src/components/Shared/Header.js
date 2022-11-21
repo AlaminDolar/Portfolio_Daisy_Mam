@@ -4,7 +4,7 @@ import { FaLongArrowAltDown } from "react-icons/fa";
 const Header = () => {
   return (
     <div>
-      <div className="navbar  text-black bg-sky-100">
+      <div className="navbar  text-white bg-slate-400">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -36,7 +36,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn text-sky-600 font-bold btn-ghost normal-case text-3xl ml-32">
+          <a className=" text-white font-bold  normal-case text-3xl ml-32">
             MD. AL-AMIN
           </a>
         </div>
@@ -57,7 +57,7 @@ const Header = () => {
                 <a className="btn btn-ghost normal-case text-base font-normal">
                   Contact
                 </a>
-                <a className="btn  btn-outline btn-info normal-case text-base font-normal">
+                <a className="btn  btn-outline  normal-case text-base font-normal">
                   <FaLongArrowAltDown></FaLongArrowAltDown> Download Resume
                 </a>
               </li>
