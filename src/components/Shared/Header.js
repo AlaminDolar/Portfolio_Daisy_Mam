@@ -57,7 +57,7 @@ const Header = () => {
                 <a className="btn btn-ghost normal-case text-base font-normal">
                   Contact
                 </a>
-                <a className="btn btn-outline btn-info normal-case text-base font-normal">
+                <a className="btn  btn-outline btn-info normal-case text-base font-normal">
                   <FaLongArrowAltDown></FaLongArrowAltDown> Download Resume
                 </a>
               </li>

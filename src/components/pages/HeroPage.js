@@ -6,8 +6,8 @@ import { FaLongArrowAltDown } from "react-icons/fa";
 const HeroPage = () => {
   return (
     <div>
-      <div className="hero min-h-screen bg-base-200">
-        <div className=" hero-content flex  gap-28 lg:flex-row-reverse">
+      <div className="hero min-h-screen bg-sky-100">
+        <div className=" hero-content flex-col  gap-28 lg:flex-row-reverse">
           <div>
             <div>
               <img src={profile} className="w-[400px] -translate-y-8 " />
