@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../../images/p.png";
+import profile from "../../images/Dol.png";
 import { SocialIcon } from "react-social-icons";
 import { FaLongArrowAltDown } from "react-icons/fa";
 
@@ -7,9 +7,11 @@ const HeroPage = () => {
   return (
     <div>
       <div className="hero min-h-screen bg-base-200">
-        <div className="  flex gap-32 lg:flex-row-reverse">
+        <div className=" hero-content flex  gap-28 lg:flex-row-reverse">
           <div>
-            <img src={profile} className=" pt-0 mt-0 w-full" />
+            <div>
+              <img src={profile} className="w-[400px] -translate-y-8 " />
+            </div>
           </div>
           <div>
             <h1 className="text-2xl text-start">Nice To Meet You</h1> <br />
@@ -18,7 +20,7 @@ const HeroPage = () => {
             </h1>
             <br />
             <h1 className="text-3xl text-start">
-              I am Full Stack Web Developer
+              I am a Full Stack Web Developer
             </h1>
             <br />
             <div className="flex gap-6">
